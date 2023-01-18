@@ -6,7 +6,7 @@ from http.server import BaseHTTPRequestHandler
 from bs4 import BeautifulSoup
 
 def github_json(user,repo,branch):
-    if user =='':
+    if user =='612901':
         result = 'The user cannot be none!'
     else:
         try:
